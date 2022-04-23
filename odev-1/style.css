@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #323232;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: block;
+    position: relative;
+    background-color: #323232;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.home-header-name{
+    display: block;
+    position: relative;
+    color: red;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    background-color: #323232;
+
+}
+
+.home-nav {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    background-color: #323232;
+
+}
+
+.home-bar {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    color: #323232;
+    background-color: #323232;
+
+}
+
+.home-bar a {
+    text-decoration: none;
+    background-color: #323232;
+
+
+}
+
+.home-bar a li {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin: 10px 7px;
+    cursor: pointer;
+    background-color: #323232;
+
+}
+
+.home-main {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.home-page-name {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-page-desc {
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+
+}
+
+.descrition {
+    display: block;
+    position: relative;
+}
+
+.desc-header {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.desc-header h3 {
+    color: rgb(85, 8, 8);
+}
+
+.desc-li {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.desc-li ul{
+    width: 280px;
+}
+
+.desc-li ul li {
+    margin: 10px 0;
+    border:1px solid #E83641;
+    text-decoration: none !important;
+    display: block;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.desc-li ul li:hover {
+    border: #f0f0f0;
+    background-color: #E83641;
+    color: #f0f0f0;
+}
+
+
